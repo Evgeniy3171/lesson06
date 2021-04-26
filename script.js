@@ -33,7 +33,7 @@ function playNumber(){
               inputNumber();
           } else {
               if (confirm('Поздравляю, Вы угадали!!! Хотите сыграть еще?')){
-                inputNumber();
+                playNumber();
               } else {
                 alert('До свидания');
                 return;
